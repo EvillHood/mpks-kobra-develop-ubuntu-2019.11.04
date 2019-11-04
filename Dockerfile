@@ -1,4 +1,4 @@
-FROM EvillHood/ubuntu-builder as build
+FROM evillhood/ubuntu-builder:19.04 as build
 MAINTAINER EvillHood
 ENV DEBIAN_FRONTEND=noninteractive
 
